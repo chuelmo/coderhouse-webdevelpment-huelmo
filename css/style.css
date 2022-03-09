@@ -1,0 +1,190 @@
+/* reset values */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 1 rem = 10 px with this conversion */
+html {
+  font-size: 62.5%;
+}
+
+header {
+  background-color: rgb(49, 52, 54);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  padding: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul a {
+  color: white;
+  font-family: "Noto Serif Display", serif;
+  font-size: 2rem;
+  text-decoration: none;
+  padding: 1rem;
+  border: 2px solid white;
+  border-radius: 10%;
+  margin-left: 1rem;
+}
+
+nav ul a:hover {
+  background-color: rgb(8, 4, 162);
+  border-color: black;
+  color: aliceblue;
+}
+
+main {
+  background-image: url("../images/fondo.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainSon {
+  display: flex;
+  flex-direction: column;
+}
+
+.acercaDe {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.acercaDe h4,
+main h4 {
+  font-family: "Noto Serif Display", serif;
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.acercaDe p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.8rem;
+  margin-bottom: 1.8rem;
+}
+
+.trabajo h3 {
+  font-family: "Noto Serif Display", serif;
+  font-size: 2.4rem;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.trabajo p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.8rem;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.trabajo {
+  display: flex;
+}
+
+.tarjetita {
+  width: 250px;
+  margin: 20px;
+  padding: 15px;
+  border: 1px solid gray;
+  border-radius: 10%;
+  background-color: aliceblue;
+}
+
+.clientes {
+  display: flex;
+  flex-wrap: wrap;
+  overflow: auto;
+  width: 90%;
+}
+
+.tarjCliente {
+  width: 400px;
+  margin: 20px;
+  padding: 15px;
+  border: 1px solid gray;
+  border-radius: 10%;
+  background-color: white;
+  text-align: center;
+}
+
+.negocio {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.8rem;
+  color: gray;
+}
+
+.negocioTitulo {
+  font-family: "Noto Serif Display", serif;
+  font-size: 4rem;
+}
+
+.negocioPie {
+  font-family: "Roboto", sans-serif;
+  font-size: 2.4rem;
+  color: gray;
+  text-align: right;
+}
+
+footer {
+  background-color: rgb(49, 52, 54);
+  display: flex;
+  flex-direction: column;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+}
+
+footer ul a {
+  padding: 1rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
+}
+
+footer h4 {
+  color: white;
+  font-size: 2rem;
+  font-family: "Noto Serif Display", serif;
+  margin-bottom: 1rem;
+}
+
+.pieArriba {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 1.5rem;
+  border-bottom: 1px solid white;
+  padding-bottom: 1.5rem;
+}
+
+.pieArriba p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.4rem;
+  color: aliceblue;
+}
+
+.pieCopyright {
+  margin: 1.5rem;
+  color: white;
+  font-size: 1.6rem;
+  font-family: "Roboto", sans-serif;
+  align-self: center;
+}
