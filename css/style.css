@@ -188,3 +188,19 @@ footer h4 {
   font-family: "Roboto", sans-serif;
   align-self: center;
 }
+
+.logo:hover,
+.pieLogo:hover {
+  -webkit-animation: tiembla 0.1s infinite;
+}
+@-webkit-keyframes tiembla {
+  0% {
+    -webkit-transform: rotateZ(-5deg);
+  }
+  50% {
+    -webkit-transform: rotateZ(0deg) scale(0.8);
+  }
+  100% {
+    -webkit-transform: rotateZ(5deg);
+  }
+}
