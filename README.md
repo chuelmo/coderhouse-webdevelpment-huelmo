@@ -8,3 +8,5 @@
 
 * Se agrega una pequeña animación al logo tanto en el header como en el footer para cumplir con la consigna
 * Se mergea la rama en local y se hace un PR que se resuelve en Github
+
+* Aparecen 2 colaboradores en el proyecto porque el primer commit lo hice con mi cuenta de la universidad activada :p
