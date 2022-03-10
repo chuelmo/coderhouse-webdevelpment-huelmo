@@ -1,28 +1,69 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="../images/favicon.ico">
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display&family=Roboto&display=swap" rel="stylesheet"> 
-    <title>HRProgrammers - Portfolio</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <link rel="stylesheet" href="../css/style-grid.css">
+    <title>HRProgrammers - Portafilio</title>
 </head>
 <body>
-    <header>
-        <a href="../index.html">
-            <img src="../images/logo_HRProgammers.png" alt="logo de la empresa" width="300px">
-        </a>
-        <nav>
-            <ul>
-                <li>
+    <div class="contenedor">
+        <header class="header">
+            <div class="logo">
+                <a href="../index.html">
+                    <img src="../images/logo_HRProgammers.png" alt="logo de la empresa">
+                </a>
+            </div>
+        </header>
+        <main class="contenido">
+            <h2>¿Qué hacemos?</h2>
+            <div class="divTrabajo">
+              <div class="card">
+                <h2>Estrategia del Producto & Diseño</h2>
+                <hr />
+                <p>Con el usuario final en mente, diseñamos productos que las personas
+                    quieran usar. Tenemos expertos en todas las áreas para ayudar a su
+                    empresa desde la idea hasta el mejor producto posible.
+                </p>
+              </div>
+              <div class="card">
+                <h2>Desarrollo Móvil</h2>
+                <hr />
+                <p>Amamos hacer nuestras aplicaciones móviles. Nuestros desarrolladores
+                    son expertos en las últimas tecnologías, nos sentimos cómodos tanto
+                    en Android como en iOS. Hemos desarrollado tanto pequeñas aplicaciones,
+                    MVPs para startups como gigantes aplicaciones para bancos.
+                </p>
+              </div>
+              <div class="card">
+                <h2>Fullstack Web</h2>
+                <hr />
+                <p>Nuestro equipo de Web Developers pueden manejar cualquier
+                    tipo de proyectos. Nos encanta tanto el frontend como el backend,
+                    en su mayoría en un ambiente Javascript.
+                </p>
+              </div>
+              <div class="card">
+                <h2>Auditamos código</h2>
+                <hr />
+                <p>Realizamos "Code Review" para iOS, Android y aplicaciones Web.</p>
+                <p>Luego de un exahustivo análisis de la estructura del proyecto y del código
+                    reportamos nuestros hallazgos y recomendaciones.
+                </p>
+              </div>
+            </div>
+        </main>
+        <aside class="sidebar">
+            <h3>¿Qué estás buscando?</h3>
+            <div class="menu">
+                <ul>
+                  <li>
                     <a href="./acercaDe.html">Acerca de</a>
                 </li>
                 <li>
-                    <a href="#">Trabajo</a>
+                    <a href="./trabajos.html">Trabajo</a>
                 </li>
                 <li>
                     <a href="./clientes.html">Clientes</a>
@@ -33,46 +74,10 @@
                 <li>
                     <a href="./contacto.html">Contáctanos</a>
                 </li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <h4>¿Qué hacemos?</h4>
-        <div class="trabajo"> 
-            <div class="tarjetita">
-                <h3>Estrategia del Producto & Diseño</h3>
-                <p>Con el usuario final en mente, diseñamos productos que las personas
-                    quieran usar. Tenemos expertos en todas las áreas para ayudar a su
-                    empresa desde la idea hasta el mejor producto posible.
-                </p>
+                </ul>
             </div>
-            <div class="tarjetita">
-                <h3>Desarrollo Móvil</h3>
-                <p>Amamos hacer nuestras aplicaciones móviles. Nuestros desarrolladores
-                    son expertos en las últimas tecnologías, nos sentimos cómodos tanto
-                    en Android como en iOS. Hemos desarrollado tanto pequeñas aplicaciones,
-                    MVPs para startups como gigantes aplicaciones para bancos.
-                </p>
-            </div>
-            <div class="tarjetita">
-                <h3>Fullstack Web</h3>
-                <p>Nuestro equipo de Web Developers pueden manejar cualquier
-                    tipo de proyectos. Nos encanta tanto el frontend como el backend,
-                    en su mayoría en un ambiente Javascript.
-                </p>
-            </div>
-            <div class="tarjetita">
-                <h3>Auditamos código</h3>
-                <p>Realizamos "Code Review" para iOS, Android y aplicaciones Web.</p>
-                <p>Luego de un exahustivo análisis de la estructura del proyecto y del código
-                    reportamos nuestros hallazgos y recomendaciones.
-                </p>
-            </div>
-
-        </div>
-    </main>
-    <footer>
-        <div class="pieArriba">
+        </aside>
+        <footer class="footer">
             <div class="pieLogo">
                 <div class="pieLogo">
                     <img src="../images/logo_HRProgammers.png" alt="logo de la empresa" width="200px">
@@ -123,10 +128,10 @@
                     </li>
                 </ul>
             </div>
-        </div>     
-        <div class="pieCopyright">
-            <p>© Copyright 2022 Christian Huelmo / Desarrollo Web en Coderhouse. All Rights Reserved.</p>
-        </div>
-    </footer>
+            <div class="pieCopyright">
+                <p>© Copyright 2022 Christian Huelmo / Desarrollo Web en Coderhouse. All Rights Reserved.</p>
+            </div>
+        </footer>
+    </div>
 </body>
 </html>

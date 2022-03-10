@@ -1,25 +1,39 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="../images/favicon.ico">
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display&family=Roboto&display=swap" rel="stylesheet"> 
-    <title>HRProgrammers - About</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <link rel="stylesheet" href="../css/style-grid.css">
+    <title>HRProgrammers - Acerca de</title>
 </head>
 <body>
-    <header>
-        <a href="../index.html">
-            <img src="../images/logo_HRProgammers.png" alt="logo de la empresa" width="300px">
-        </a>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#">Acerca de</a>
+    <div class="contenedor">
+        <header class="header">
+            <div class="logo">
+                <a href="../index.html">
+                    <img src="../images/logo_HRProgammers.png" alt="logo de la empresa">
+                </a>
+            </div>
+        </header>
+        <main class="contenido">
+            <h2>Acerca de HRProgrammers</h2>
+            <p>Somos una empresa familiar fundada en 2019, nuestro padre trabajó por
+            más de 20 años en la industria TI y sin proponérselo nos inundó con su
+            pasión por la tecnología.
+            </p>
+            <p>Al crecer y hacer carrera en el área de la ingeniería de software nos pareció
+            que no podíamos dejar pasar la oportunidad de trabajar los tres juntos, y así 
+            fue como nació HRProgrammers.
+            </p>
+        </main>
+        <aside class="sidebar">
+            <h3>¿Qué estás buscando?</h3>
+            <div class="menu">
+                <ul>
+                  <li>
+                    <a href="./acercaDe.html">Acerca de</a>
                 </li>
                 <li>
                     <a href="./trabajos.html">Trabajo</a>
@@ -33,24 +47,10 @@
                 <li>
                     <a href="./contacto.html">Contáctanos</a>
                 </li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <div class="acercaDe">
-            <h4>Acerca de HRProgrammers</h4>
-            <p>Somos una empresa familiar fundada en 2019, nuestro padre trabajó por
-            más de 20 años en la industria TI y sin proponérselo nos inundó con su
-            pasión por la tecnología.
-            </p>
-            <p>Al crecer y hacer carrera en el área de la ingeniería de software nos pareció
-            que no podíamos dejar pasar la oportunidad de trabajar los tres juntos, y así 
-            fue como nació HRProgrammers.
-            </p>
-        </div>
-    </main>
-    <footer>
-        <div class="pieArriba">
+                </ul>
+            </div>
+        </aside>
+        <footer class="footer">
             <div class="pieLogo">
                 <div class="pieLogo">
                     <img src="../images/logo_HRProgammers.png" alt="logo de la empresa" width="200px">
@@ -101,10 +101,10 @@
                     </li>
                 </ul>
             </div>
-        </div>     
-        <div class="pieCopyright">
-            <p>© Copyright 2022 Christian Huelmo / Desarrollo Web en Coderhouse. All Rights Reserved.</p>
-        </div>
-    </footer>
+            <div class="pieCopyright">
+                <p>© Copyright 2022 Christian Huelmo / Desarrollo Web en Coderhouse. All Rights Reserved.</p>
+            </div>
+        </footer>
+    </div>
 </body>
 </html>
