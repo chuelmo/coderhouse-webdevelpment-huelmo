@@ -20,6 +20,21 @@
   padding-bottom: 20px;
 }
 
+.equipo {
+  padding-top: 90px;
+  background-color: gray;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+.tarjetita {
+  margin: 20px;
+  padding: 15px;
+  border: 1px solid black;
+  border-radius: 10%;
+  background-color: aliceblue;
+}
+
 .footer {
   color: white;
 }
