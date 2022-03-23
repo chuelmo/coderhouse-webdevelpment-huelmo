@@ -5,24 +5,33 @@
 .contenido {
   padding-top: 90px;
   height: 700px;
-  background-color: gray;
+  background: #532f8c;
+  color: white;
+}
+
+.negocioTitulo {
+  font-size: 60px;
 }
 
 .clientes {
   padding-top: 90px;
-  background-color: gray;
+  background: #532f8c;
+}
+
+.form-fila {
+  margin-top: 15px;
 }
 
 .contactos {
   padding-top: 90px;
-  background-color: gray;
+  background: #532f8c;
   margin-bottom: 40px;
   padding-bottom: 20px;
 }
 
 .equipo {
   padding-top: 90px;
-  background-color: gray;
+  background: #532f8c;
   margin-bottom: 10px;
   padding-bottom: 10px;
 }
@@ -37,11 +46,16 @@
 
 .footer {
   color: white;
+  margin-top: 15px;
 }
 
 .copyright {
   border-top: solid 1px white;
   margin-top: 10px;
+}
+
+.copyright p {
+  padding-top: 15px;
 }
 
 .abs-center {
@@ -51,6 +65,35 @@
   justify-content: center;
   text-align: center;
   min-height: 600px;
+}
+
+.social-container a {
+  text-decoration: none;
+}
+
+.social-container .fa-stack {
+  width: 2em;
+  margin-bottom: 1.25rem;
+  margin-right: 0.375rem;
+  font-size: 1.5rem;
+}
+
+.social-container .fa-stack .fa-stack-1x {
+  color: #1b1e7b;
+  transition: all 0.2s ease;
+}
+
+.social-container .fa-stack .fa-stack-2x {
+  color: #ffffff;
+  transition: all 0.2s ease;
+}
+
+.social-container .fa-stack:hover .fa-stack-1x {
+  color: #ffffff;
+}
+
+.social-container .fa-stack:hover .fa-stack-2x {
+  color: #1b1e7b;
 }
 
 @media screen and (max-width: 768px) {
