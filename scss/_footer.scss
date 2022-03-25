@@ -1,0 +1,39 @@
+.footer {
+  color: $color-blanco;
+  margin-top: 15px;
+  .copyright {
+    border-top: solid 1px $color-blanco;
+    margin-top: 10px;
+    p {
+      padding-top: 15px;
+    }
+  }
+}
+
+.social-container {
+  a {
+    text-decoration: none;
+  }
+  .fa-stack {
+    width: 2em;
+    margin-bottom: 1.25rem;
+    margin-right: 0.375rem;
+    font-size: 1.5rem;
+    &:hover {
+      .fa-stack-1x {
+        color: $color-blanco;
+      }
+      .fa-stack-2x {
+        color: $color-azul;
+      }
+    }
+    .fa-stack-1x {
+      color: $color-azul;
+      transition: all 0.2s ease;
+    }
+    .fa-stack-2x {
+      color: $color-blanco;
+      transition: all 0.2s ease;
+    }
+  }
+}

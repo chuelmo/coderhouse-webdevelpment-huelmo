@@ -3,3 +3,5 @@ images/
 
 # Ignore DS_store on MAC OS
 .DS_store
+
+node_modules/

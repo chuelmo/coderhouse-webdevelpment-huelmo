@@ -1,0 +1,87 @@
+@import 'vars';
+@import 'footer';
+
+.img-logo {
+    width: 250px;
+  }
+  
+  .contenido {
+    padding-top: 90px;
+    height: 700px;
+    background: $color-fondo;
+    color: white;
+  }
+  
+  .negocioTitulo {
+    font-size: 60px;
+  }
+  
+  .clientes {
+    padding-top: 90px;
+    background: $color-fondo;
+  }
+  
+  .form-fila {
+    margin-top: 15px;
+  }
+  
+  .contactos {
+    padding-top: 90px;
+    background: $color-fondo;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+  }
+  
+  .equipo {
+    padding-top: 90px;
+    background: $color-fondo;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .tarjetita {
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 10%;
+    background-color: aliceblue;
+  }
+  
+  
+  .abs-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 600px;
+  }
+  
+  
+  
+  @media screen and (max-width: 768px) {
+    .img-logo {
+      width: 200px;
+    }
+    .contenido {
+      padding-top: 75px;
+      height: 600px;
+    }
+    .abs-center {
+      min-height: 450px;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .img-logo {
+      width: 150px;
+    }
+    .contenido {
+      width: 400px;
+      height: auto;
+    }
+    .header {
+      min-width: 300px;
+    }
+  }
+  
