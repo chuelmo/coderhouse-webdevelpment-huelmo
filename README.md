@@ -1,5 +1,9 @@
 # Coderhouse - Desarrollo Web - Primer proyecto
 
+Se comenzó a manejar los estilos con SASS.
+
+# Coderhouse - Desarrollo Web - Primer proyecto
+
 Segunda entrega del proyecto final
 
 - Está maquetado con boostrap
