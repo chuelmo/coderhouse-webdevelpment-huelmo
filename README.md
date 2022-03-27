@@ -1,3 +1,17 @@
+# Coderhouse - Desarrollo Web - Primer proyecto - Entrega SASS II y SEO
+
+- Se agrega map y map-get
+- Se agregan mixin con if y else
+- Se agrega un extend para heredar de otra clase
+- Se agregan las etiquetas meta description y meta keywords
+- Todas las páginas tienen un título diferente
+- Se incluyen las imágenes en github
+- Se crea la branch gh-pages para poder ver el proyecto en github
+- Se borran todos los lorem
+- Se completa el contenido
+- Todo está bien estructurado y con etiquetas semánticas
+- Falta buen gusto pero Quod natura non dat, Salmantica non prestat :)
+
 # Coderhouse - Desarrollo Web - Primer proyecto
 
 Se comenzó a manejar los estilos con SASS.
