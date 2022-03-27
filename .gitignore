@@ -1,6 +1,3 @@
-# Ignore all images
-images/
-
 # Ignore DS_store on MAC OS
 .DS_store
 

@@ -10,6 +10,13 @@
   }
 }
 
+@mixin social($color, $transition: none) {
+  color: $color;
+  @if $transition != "none" {
+    transition: all 0.2s ease;
+  }
+}
+
 .social-container {
   a {
     text-decoration: none;
@@ -21,19 +28,17 @@
     font-size: 1.5rem;
     &:hover {
       .fa-stack-1x {
-        color: $color-blanco;
+        @include social($color-blanco);
       }
       .fa-stack-2x {
-        color: $color-azul;
+        @include social($color-azul);
       }
     }
     .fa-stack-1x {
-      color: $color-azul;
-      transition: all 0.2s ease;
+      @include social($color-azul, yes);
     }
     .fa-stack-2x {
-      color: $color-blanco;
-      transition: all 0.2s ease;
+      @include social($color-blanco, yes);
     }
   }
 }
